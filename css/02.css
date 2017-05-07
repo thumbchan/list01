@@ -1,0 +1,71 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+#containner{
+	height: auto;
+	width: 550px;
+	border: 1px solid #aaa;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.top{
+	height: 40px;
+	
+}
+.top a {
+	display: block;
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin: 5px;
+}
+.btn-list-off{
+	background:#fff url(../img/btns.jpg) -38px 0 no-repeat;
+}
+.btn-list-on{
+	background: #fff url(../img/btns.jpg)-21px 0px no-repeat;
+}
+.btn-card-on{
+	background: #fff url(../img/btns.jpg) -21px -34px no-repeat;
+}
+.btn-card-off{
+	background:#fff url(../img/btns.jpg) -38px -32px no-repeat;
+}
+#containner ul li{
+	float: left;
+	margin: 5px;
+	height: auto;
+	width: 164px;
+	border: 1px solid #ccc;
+}
+.a-img{
+	display: block;
+	height: 164px;
+	width: 164px;
+	overflow: hidden;
+}
+p a,p span{
+	display: block;
+	line-height: 20px;
+	padding-left: 10px;
+}
+.bottom{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #aaa;
+}
+.small{
+	height: 50px;
+	width: 50px;
+	display: block;
+	float: left;
+	margin: 5px;
+}
